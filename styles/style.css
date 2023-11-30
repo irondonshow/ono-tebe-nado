@@ -1,3 +1,94 @@
 .body {
     margin: auto;
 }
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-menu {
+    margin-left: 51px;
+    margin-top: 135px;
+}
+
+.links {
+    display: flex;
+    list-style: circle;
+    gap: 32px;
+    text-wrap: nowrap;
+}
+
+.header-menu-links-no-circle {
+    list-style: none;
+}
+
+.header-logo-black {
+    width: 148px;
+    height: 105px;
+    margin: 92px 0 96px 0;
+    }
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    width: 240px;
+    margin-top: 97px;
+}
+
+.contacts-text-underline {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
+.cover {
+
+}
+
+.cover-image {
+    position: ;
+}
+
+.cover-title {
+
+}
+
+.cover-title-under {
+
+}
+
+.button {
+
+}
+
+.lots {
+
+}
+
+.lots-cards {
+
+}
+
+.about {
+
+}
+
+.about-logo-white {
+
+}
+
+.about-title {
+
+}
+
+.footer {
+
+}
+
+.footer-menu {
+
+}
+
+.socials {
+
+}
