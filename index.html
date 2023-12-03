@@ -14,16 +14,19 @@
     <header class="header">
       <nav class="header-menu">
         <ul class="links">
-          <li class="header-menu-links-no-circle">главная</li>
-          <li>посмотреть лоты</li>
-          <li>об аукционе</li>
+          <li class="header-menu-links-no-circle">
+            <a class="header-menu-links-no-underline" href="">главная</a></li>
+          <li><a class="header-menu-links" href="">посмотреть лоты</a></li>
+          <li><a class="header-menu-links" href="">об аукционе</a></li>
         </ul>
       </nav>
-      <img
+      <a href="">
+        <img
         class="header-logo-black"
         src="./images/logo-black.svg"
         alt="Логотип сайта с фразой ОНО ТЕБЕ НАДО в черном цвете"
-      >
+        >
+      </a>
       <address class="contacts">
         <a class="contacts-text-underline" href="tel:+99995555555">+9 999 555 5555</a>
         <a class="contacts-text-underline" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
@@ -32,14 +35,15 @@
     </header>
 
     <cover class="cover">
-      <img
-        class="cover-image"
-        src="./images/cover.jpg"
-        alt="Картина цветы в масле"
-      >
-      <h1 class="cover-title">ОНО ТЕБЕ НАДО</h1>
-      <h3 class="cover-title-under">Аукцион вещей, в которые никто не верил</h3>
-      <button class="button"></button>
+          <h1 class="cover-title">
+            <span class="ono cover-title-letter-spacing-normal">о<span class="ono cover-title-letter-spacing-big">но</span></span><br>
+            <span class="tebe cover-title-letter-spacing-normal">те<span class="tebe cover-title-letter-spacing-big">бе</span></span><br>
+            <span class="nado cover-title-letter-spacing-big">н<span class="nado cover-title-letter-spacing-normal">адо</span></span>
+          </h1>
+      <h3 class="cover-under-title">Аукцион вещей, в которые никто не верил</h3>
+      <button class="cover-button">
+        <p class="cover-button-text">Сделать ставку</p>
+      </button>
     </cover>
 
     <lots class="lots">
@@ -74,8 +78,8 @@
 
     <footer class="footer">
       <address class="contacts">
-        <a href="tel:+99995555555">+9 999 555 5555</a>
-        <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+        <a class="contacts-text-underline" href="tel:+99995555555">+9 999 555 5555</a>
+        <a class="contacts-text-underline" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
         <a>наб. Принсенграхт 263-265, Амстердам</a>
       </address>
       <nav class="footer-menu"></nav>
