@@ -1,187 +1,73 @@
 .header {
-    display: flex;
-    }
+    min-height: 293px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 25px;
+    align-items: center;
+    padding: 0 50px 0px 50px;
+}
 
-.header-menu {
-    margin: 135px 0 0 50px;
-    }
+.menu {
+    
+}
 
-.links {
+.header__links-list {
     display: flex;
+    gap: 32px;
+}
+
+.item {
+    
+}
+
+.no-bullit {
+    list-style-type: none;
+}
+
+.header__link {
     color: #000;
     font-family: Raleway;
     font-size: 18px;
     font-style: normal;
-    font-weight: normal;
+    font-weight: 400;
     line-height: normal;
-    list-style: circle;
-    gap: 33px;
-    text-wrap: nowrap;
     text-underline-offset: 4px;
-    }
-
-.header-menu-links-no-circle {
-    list-style: none;
-    }
-
-.header-menu-links-no-underline {
-    text-decoration: none;
-    }
-
-.header-menu-links {
     text-decoration-thickness: 1px;
-    }
-.header-logo-black {
-    width: 147px;
-    height: 105px;
-    flex-shrink: 0;
-    flex-grow: 0;
-    margin: 92px 0 92px 209px;
-    
-    }
+}
+
+.active {
+    text-decoration: none;
+}
+
+.header__logo-link {
+
+}
+
+.header__logo {
+    height: 109px;  
+    width: 100%;
+    display: block;
+    justify-self: center;
+    padding-bottom: 3px;
+}
 
 .contacts {
-    display: flex;
-    flex-direction: column;
-    width: 240px;
-    margin: 97px 0 0 357px;
+    max-width: 240px;
+}
+
+.header__contacts {
+    justify-self: right;
+    padding-bottom: 1px;
+}
+
+.contacts__link {
     color: #000;
     font-family: Raleway;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: 24.3px;
-}
-
-.contacts-text-underline {
-    text-decoration: underline;
     text-underline-offset: 4px;
     text-decoration-thickness: 1px;
 }
 
-.cover {
-    display: flex;
-    height: 757px;
-    width: 1440px;
-    background-image: url(../images/cover.jpg);
-    position: relative;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
- }
-
-.cover-title {
-    display: flex;
-    text-transform: uppercase;
-    color: #FFF;
-    text-wrap: nowrap;
-    margin: 165px 0 0 50px;
-}
-
-.ono {
-
-}
-
-.tebe {
-
-}
-
-.nado {
-
-}
-
-.cover-title-letter-spacing-normal {
-    color: #FFF;
-    font-family: Raleway;
-    font-size: 100px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 115%;
-    letter-spacing: 30px;
-    text-transform: uppercase;
-}
-
-.cover-title-letter-spacing-big {
-    color: #FFF;
-    font-family: Raleway;
-    font-size: 100px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 115%;
-    letter-spacing: 60px;
-    text-transform: uppercase;
-}
-
-.cover-under-title {
-    display: flex;
-    flex-shrink: 0;
-    flex-grow: 0;
-    color: #FFF;
-    text-wrap: nowrap;
-    text-align: center;
-    font-family: Raleway;
-    font-size: 22px;
-    font-style: normal;
-    font-weight: normal;
-    line-height: 28px;
-    text-transform: uppercase;
-    word-spacing: 17px;
-}
-
-.cover-button {
-    font-family: Raleway, san-serif;
-    display: flex;
-    width: 257px;
-    height: 52px;
-    border: 1px solid #FFF ;
-    background-color: rgba(255, 255, 255, 0.1);
-    margin: 655px 0  0 84px;
-    justify-content: center;
-    align-items: center;
-    }
-
-.cover-button-text {
-    width: 193px;
-    height: 28px;
-    color: #FFF;
-    text-align: center;
-    font-family: Raleway;
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    text-transform: uppercase;
-    
-    }
-
-.lots {
-
-}
-
-.lots-cards {
-
-}
-
-.about {
-
-}
-
-.about-logo-white {
-
-}
-
-.about-title {
-
-}
-
-.footer {
-
-}
-
-.footer-menu {
-
-}
-
-.socials {
-
-}
