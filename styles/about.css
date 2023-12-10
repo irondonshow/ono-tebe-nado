@@ -1,0 +1,60 @@
+.about {
+  display: flex;
+  position: relative;
+  margin-top: 181px;
+  padding: 0 50px;
+}
+
+.about__logo-container {
+  padding: 0 95px;
+  flex-shrink: 0;
+}
+
+.about__logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 240px;
+  height: 240px;
+  background-color: black;
+  border-radius: 50%;
+}
+
+.about__logo-image {
+  width: 148px;
+}
+
+.about__content {
+  justify-self: center;
+  margin: 100px 0 0 25px;
+  flex-grow: 1;
+}
+
+.about__title {
+  color: #000;
+
+  font-family: Raleway;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.about__text {
+  color: #000;
+  font-family: Raleway;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+}
+
+.about__text-first-paragraph {
+  padding-top: 100px;
+}
+
+.about__text-second-paragraph {
+  padding-top: 25px;
+}
